@@ -5,6 +5,7 @@ on:
     branches:
       - 'DEFEDIT-*'
       - 'editor-dev'
+      - 'mybuild'
 
 env:
   S3_ACCESS_KEY: ${{ secrets.S3_ACCESS_KEY }}
